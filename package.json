@@ -1,5 +1,5 @@
 {
-  "name": "react-lib",
+  "name": "@akshay-krishna/gen-context",
   "version": "0.0.1",
   "description": "A sample react lib",
   "scripts": {
@@ -8,6 +8,7 @@
   "keywords": [],
   "author": "Akshay Krishna",
   "license": "ISC",
+  "repository": "achu-krishna/gen-context",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.2",
     "@rollup/plugin-node-resolve": "^13.3.0",
