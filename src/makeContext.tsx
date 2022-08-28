@@ -1,20 +1,10 @@
-import React, {
-  createContext,
-  ReactNode,
-  Reducer,
-  ReducerAction,
-  useContext,
-  useReducer,
-} from "react";
+import React, { createContext, ReactNode, useContext, useReducer } from "react";
 
 type Props = {
   children: ReactNode;
 };
 
-const makeContext = <S extends unknown>(
-  reducer: Reducer<S, ReducerAction<any>>,
-  initialState: any
-) => {
+const makeContext = (reducer: any, initialState: any) => {
   const dataContext = createContext<any>(null);
   const dispatchContext = createContext<any>(null);
 
