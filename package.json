@@ -1,6 +1,6 @@
 {
   "name": "@akshay-krishna/gen-context",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A sample react lib",
   "scripts": {
     "rollup": "rollup -c"
